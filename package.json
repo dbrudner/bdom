@@ -1,0 +1,24 @@
+{
+	"name": "bdom",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "parcel index.html --out-dir build --open",
+		"build": "parcel build index.html",
+		"clean": "rm -rf ./dist",
+		"test": "jest --watchAll"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^3.7.4"
+	},
+	"dependencies": {
+		"@types/jest": "^24.0.25",
+		"jest": "^24.9.0",
+		"jsdom": "^15.2.1",
+		"ts-jest": "^24.3.0"
+	}
+}
